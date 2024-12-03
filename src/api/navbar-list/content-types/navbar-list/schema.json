@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbar_lists",
+  "info": {
+    "singularName": "navbar-list",
+    "pluralName": "navbar-lists",
+    "displayName": "Navbar-List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "CategoryName": {
+      "type": "enumeration",
+      "enum": [
+        "Latest",
+        "World News",
+        "National News",
+        "Politics",
+        "Business",
+        "Technology",
+        "Science",
+        "Health",
+        "Education",
+        "Sports",
+        "Entertainment",
+        "Lifestyle",
+        "Travel",
+        "Crime",
+        "Weather",
+        "Finance",
+        "Environment",
+        "Real Estate",
+        "Automotive",
+        "Space",
+        "Cultural",
+        "Opinion/Editorial",
+        "Local News",
+        "Agriculture",
+        "Religion",
+        "Human Interest",
+        "Gaming",
+        "Economy",
+        "Fashion",
+        "تازہ ترین",
+        "عالمی خبریں",
+        "قومی خبریں",
+        "سیاست",
+        "کاروبار",
+        "ٹیکنالوجی",
+        "سائنس",
+        "صحت",
+        "تعلیم",
+        "کھیل",
+        "تفریح",
+        "طرزِ زندگی",
+        "سفر",
+        "جرائم",
+        "موسم",
+        "مالیات",
+        "ماحولیات",
+        "جائیداد",
+        "گاڑیاں",
+        "خلا",
+        "ثقافتی خبریں",
+        "رائے/اداریہ",
+        "مقامی خبریں",
+        "زراعت",
+        "مذہب",
+        "انسانی دلچسپی",
+        "گیمنگ",
+        "معیشت",
+        "فیشن"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "NewsId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "biginteger"
+    }
+  }
+}

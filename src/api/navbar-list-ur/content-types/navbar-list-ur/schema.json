@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbar_list_urs",
+  "info": {
+    "singularName": "navbar-list-ur",
+    "pluralName": "navbar-list-urs",
+    "displayName": "Navbar-List-Ur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CategoryName": {
+      "type": "enumeration",
+      "enum": [
+        "تازہ ترین",
+        "عالمی خبریں",
+        "قومی خبریں",
+        "سیاست",
+        "کاروبار",
+        "ٹیکنالوجی",
+        "سائنس",
+        "صحت",
+        "تعلیم",
+        "کھیل",
+        "تفریح",
+        "طرزِ زندگی",
+        "سفر",
+        "جرائم",
+        "موسم",
+        "مالیات",
+        "ماحولیات",
+        "جائیداد",
+        "گاڑیاں",
+        "خلا",
+        "ثقافتی خبریں",
+        "رائے/اداریہ",
+        "مقامی خبریں",
+        "زراعت",
+        "مذہب",
+        "انسانی دلچسپی",
+        "گیمنگ",
+        "معیشت",
+        "فیشن"
+      ]
+    },
+    "NewsId": {
+      "type": "biginteger"
+    }
+  }
+}
